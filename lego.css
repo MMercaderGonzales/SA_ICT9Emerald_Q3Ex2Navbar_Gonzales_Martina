@@ -1,0 +1,100 @@
+body {
+      background-image: url('bg.jpg');
+      background-size: cover; 
+      font-family: 'Quicksand', sans-serif;
+    }
+    .navbar {
+      background-color: #fbcc00;
+    }
+    .navbar-brand img {
+      max-height: 60px;
+      margin-right: 30px;
+    }
+    .nav-link {
+      color: black !important;
+      font-size: 16px;
+      margin-right: 45px;
+    }
+    .navbar-light .navbar-toggler-icon {
+      background-image: url('bg.jpg');
+    }
+    
+    .shopping-bag-with-count {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .shopping-bag-count {
+      font-size: small; 
+      font-weight: 600;
+      margin-left: 4px;
+      margin-top:10px;
+    }
+
+    ion-icon {
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .Likes {
+      margin-top: 10px;
+    }
+
+    .searchBtn {
+      font-size: 30px;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-top: 5px;
+      margin-left:5px;
+    }
+    .circle-background {
+      background-color: white;
+      border-radius: 50%;
+      width: 55px;
+      height:55px;
+    }
+
+
+    
+    .bi {
+      font-size: 22px;
+      display: flex; 
+      align-items: center; 
+      position: relative;
+      margin-top: 10px;
+     }
+
+    
+    .search-container {
+      position: relative;
+    }
+    .searchbox {
+      display: none; 
+      position: absolute;
+      top: 0;
+      width: 300px;
+      background: white;
+      padding: 0 30px;
+      transition: 0.5s ease-in-out;
+      margin-left:160px;
+      margin-right: 140px;
+    }
+    .searchbox.active {
+      display: block;
+      right: 0;
+    }
+    .searchbox input {
+      width: 100%;
+      border: none;
+      outline: none;
+      height: 50px;
+      color: black;
+      font-size: 1.25em;
+      bg: #fff;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    }
